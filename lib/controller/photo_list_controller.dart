@@ -22,7 +22,7 @@ class PhotoListController extends GetxController {
       var response = await HttpServices.httpGetWithoutToken(url);
 
       if (response.statusCode == 200 || response.statusCode == 201) {
-        print('Album Response body: ${response.body}');
+        print('photo Response body: ${response.body}');
         final jsonData = json.decode(response.body);
         if (jsonData is List) {
           isError(false);

@@ -59,7 +59,7 @@ class UserController extends GetxController {
           print('===========');
           print(response.body);
           print('===========');
-          Get.snackbar('Success', 'Album Deleted successfully',
+          Get.snackbar('Success', 'Add User successfully',
               snackPosition: SnackPosition.BOTTOM);
           Get.back();
 

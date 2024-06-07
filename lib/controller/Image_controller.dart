@@ -13,6 +13,7 @@ class ImageController extends GetxController {
     }
   }
 
+
   void removeImage() {
     selectedImagePath.value = '';
   }
